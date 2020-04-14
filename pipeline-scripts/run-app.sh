@@ -23,3 +23,4 @@ vendor/bin/phpunit >> /home/ubuntu/1.txt
 ##php artisan route:cache
 #php artisan bugsnag:notify
 rm -rf /tmp/app
+touch /home/ubuntu/flv.tst
