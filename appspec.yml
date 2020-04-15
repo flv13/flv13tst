@@ -104,10 +104,10 @@ hooks:
       # runas:
     - location: pipeline-scripts/set-envfile.sh
       timeout: 60
-      runas: root
+      #runas: root
     - location: pipeline-scripts/run-app.sh
       timeout: 60
-      runas: raful
+      #runas: raful
 # During the ApplicationStart deployment lifecycle event, run the commands 
 #   in the script specified in "location".
   # ApplicationStart:
