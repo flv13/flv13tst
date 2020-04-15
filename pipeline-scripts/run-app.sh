@@ -23,4 +23,4 @@ cd /home/raful/default/app/
 ##php artisan route:cache
 #php artisan bugsnag:notify
 #rm -rf /tmp/app
-#touch /home/ubuntu/flv.tst
+echo "Flavian TEST!!!init" > /home/ubuntu/flv.tst
