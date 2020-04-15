@@ -8,12 +8,12 @@ function finish {
 }
 trap finish EXIT
 
-export COMPOSER_HOME="/root/.composer"
+#export COMPOSER_HOME="/root/.composer"
 cp -a /tmp/app /home/raful/default/
 cd /home/raful/default/app/
-composer install --no-interaction --prefer-dist --optimize-autoloader > /home/ubuntu/1.txt
-php artisan key:generate >> /home/ubuntu/1.txt
-vendor/bin/phpunit >> /home/ubuntu/1.txt
+#composer install --no-interaction --prefer-dist --optimize-autoloader > /home/ubuntu/1.txt
+#php artisan key:generate >> /home/ubuntu/1.txt
+#vendor/bin/phpunit >> /home/ubuntu/1.txt
 #php artisan migrate --force >> /home/ubuntu/1.txt
 #php artisan cache:clear >> /home/ubuntu/1.txt
 #php artisan view:clear >> /home/ubuntu/1.txt
